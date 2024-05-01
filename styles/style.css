@@ -38,13 +38,14 @@ ol {
 }
 
 .content {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-end;
-  min-width: 1200px;
-  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: end;
+  width: 1140px;
+  height: 534px;
   gap: 30px;
+  margin: 50% auto;
+  
 
 }
 
@@ -74,11 +75,12 @@ ol {
 
 
 .content__list {
-  position: relative;
-  max-width: 399px;
+  
+  width: 399px;
   height: 298px;
   overflow-y: auto;
   overflow-x: hidden;
+  
 
 }
 
@@ -87,7 +89,7 @@ ol {
   flex-direction: column;
   width: 100%;
   height: 100%;
-  gap: 26px;
+  gap: 23px;
 }
 
 .result__video-container {
@@ -105,7 +107,7 @@ ol {
 }
 
 .content__list-item:not(:last-child) {
-  margin-bottom: 34px;
+  margin-bottom: 30px;
 }
 
 .content__video-card {
@@ -254,7 +256,7 @@ fieldset{
 
 .more-button {
   background-color:inherit;
-  width: 100%;
+  width: 399px;
   height: 34px;
 
 }
