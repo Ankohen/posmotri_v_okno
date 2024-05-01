@@ -16,6 +16,9 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  border: 1px solid #1b1919;
+  
+  
 }
 
 h1,
@@ -44,7 +47,8 @@ ol {
   width: 1140px;
   height: 534px;
   gap: 30px;
-  margin: 25% auto;
+  margin: 20% auto;
+  
   
 
 }
